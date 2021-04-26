@@ -36,7 +36,7 @@ Users should be able to:
 
 ## My process
 
-I decided that this layout lent itself well to using CSS Grid. The mobile first approach did not require that the grid contaner be set at the outset, I still set it on the container element. This way I just had to had the grid-template-columns setting within the media quiry for larger screens. As I mention below, one of the main challenges within the desktop layout is preventing the paragraph from offsetting the alignment og the 'Learn More' buttons. In order to solve for this I added a flex container lement and used the justify content setting to keep the buttons in horizontal alignment.
+I decided that this layout lent itself well to using CSS Grid. The mobile first approach did not require that the grid container be set at the outset, I still set it on the container element. This way I just had to add the grid-template-columns setting within the media quiry for larger screens. As I mention below, one of the main challenges within the desktop layout is preventing the paragraph from offsetting the alignment og the 'Learn More' buttons. In order to solve for this I added a flex container lement and used the justify content setting to keep the buttons in horizontal alignment. Finally, another element I spent some time on was the application of the border radius to the first card content and last card content elements. I wanted a solution that would allow for the addition of more card content elements. So, I used the first-child and last-child selectors to apply the border radius.
 
 ### Built with
 
