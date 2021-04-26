@@ -42,8 +42,7 @@ main div:last-child {
 .btn {
   text-decoration: none;
   font-family: 'Lexend Deca', sans-serif;
-  color: var(--color-light-gray);
-  background-color: #fff;
+  background-color: var(--color-light-gray);
   border-radius: 100px;
   padding: 10px 15px;
   display: inline-block;
