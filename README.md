@@ -48,7 +48,7 @@ I decided that this layout lent itself well to using CSS Grid. The mobile first 
 
 ### What I learned
 
-The CSS below was used to keep all three buttons in the desktop layout at the same horizontal alignment when the DOM window would vary. This prevented the paragraph
+The CSS below was used to keep all three buttons in the desktop layout at the same horizontal alignment when the DOM window would vary. This prevented the paragraph from disrupting the alignment of the "Learn More" buttons in the destop layout. Also, I used the first-child and Last-child selectors to apply the border-radius. This should work well if the site added more card content panes to the design.
 
 ```css
 .card__content {
@@ -56,6 +56,14 @@ The CSS below was used to keep all three buttons in the desktop layout at the sa
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+}
+
+main div:first-child {
+  border-radius: 10px 10px 0 0;
+}
+
+main div:last-child {
+  border-radius: 0 0 10px 10px;
 }
 ```
 
