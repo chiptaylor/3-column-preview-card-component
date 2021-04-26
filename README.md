@@ -46,8 +46,6 @@ I decided that this layout lent itself well to using CSS Grid. The mobile first 
 - CSS Grid
 - Mobile-first workflow
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
 The CSS below was used to keep all three buttons in the desktop layout at the same horizontal alignment when the DOM window would vary. This prevented the paragraph
